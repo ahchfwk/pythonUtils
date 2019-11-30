@@ -1,0 +1,8 @@
+start_block class class_name { start_block func_name  ( ) { } end_block
+ start_block func_name  ( int id ) { id op_assign id ; } end_block
+ start_block id func_name  ( Collection id , id id ) { return func_name  ( id , func_name  ( id ) ) ; } end_block
+ start_block id func_name  ( Collection id , int id ) { return id . func_name  ( id ) . get  ( id op_mod id . length ) ; } end_block
+ start_block int func_name  ( id id ) { return func_name  ( id ) . func_name  ( ) op_mod func_name  ( ) ; } end_block
+ start_block id func_name  ( id id ) { if cond ( id . getClass  ( ) op_eq id . class op_logical_or id . getClass  ( ) op_eq int . class ) { return ( id ) id ; } else if cond ( id . getClass  ( ) op_eq id . class op_logical_or id . getClass  ( ) op_eq int . class ) { return ( id ) id ; } else { throw new func_name  ( id . func_name  ( string_text , id . getClass  ( ) ) ) ; } } end_block
+ } end_block
+ eof 

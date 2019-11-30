@@ -1,0 +1,14 @@
+java\net\margaritov\preference\colorpicker\ColorPickerPanelView.java:1234,1909:0
+java\net\margaritov\preference\colorpicker\ColorPickerView.java:3852,4255:0
+mining\bitminter\Work.java:109,480:1
+mining\fiftybtc\FiftyBTC.java:106,522:1
+mining\fiftybtc\aaa.java:106,522:1
+mining\btcguild\BTCGuild.java:106,698:2
+mining\emc\EMC.java:127,783:2
+mining\btcguild\Workers.java:162,764:3
+mining\slush\Workers.java:267,871:3
+bitcoinium\MinerWidgetConfigureActivity.java:887,1546:4
+bitcoinium\WidgetConfigureActivity.java:1122,1777:4
+bitcoinium\fragments\mining\BitMinterFragment.java:1671,2426:7
+bitcoinium\fragments\mining\EMCFragment.java:1593,2249:7
+bitcoinium\fragments\mining\BTCGuildFragment.java:1623,2279:7

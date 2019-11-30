@@ -1,0 +1,16 @@
+    private void createDetail(Item dataSetItem, String pubTitle, 
+    		String publicationItemId, Item interaction, String name, String typeId) 
+    	throws SQLException, ObjectStoreException {
+		Item detail = getChadoDBConverter().createItem("InteractionDetail");
+        detail.setAttribute("name", name);
+        detail.setAttribute("type", "genetic");
+        detail.setAttribute("role1", DEFAULT_ROLE);
+        detail.setAttribute("role2", DEFAULT_ROLE);
+        String experimentItemIdentifier =
+            makeInteractionExperiment(pubTitle, publicationItemId);
+        detail.setReference("experiment", experimentItemIdentifier);
+        detail.setReference("interaction", interaction);
+        detail.setReference("relationshipType", typeId);
+        detail.addToCollection("dataSets", dataSetItem);
+        getChadoDBConverter().store(detail);
+    }

@@ -1,0 +1,1567 @@
+<WTGGHPrinterClient app="apv">
+  <Edge ID="202612435">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3467]4117" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1122260165">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.Dialog" >
+    </TargetWindow>
+    <Event Type="implicit_power_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="2004608652">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.ChooseFileActivity]829" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="710479407">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_rotate_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onDestroy()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onCreateOptionsMenu(android.view.Menu)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onPrepareOptionsMenu(android.view.Menu)&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.OpenFileActivity]793" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.OpenFileActivity]793" />
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="976025777">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onDestroy()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.OpenFileActivity]793" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1510916429">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </SourceWindow>
+    <TargetWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </TargetWindow>
+    <Event Type="implicit_power_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="1919484678">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3864" >
+    </SourceWindow>
+    <TargetWindow Type="ContextMenu" Name="VAR[r1]3864" >
+    </TargetWindow>
+    <Event Type="implicit_power_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="270750482">
+    <SourceWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </TargetWindow>
+    <Event Type="dialog_cancel" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$Finder: void onCancel(android.content.DialogInterface)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="1301792983">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_power_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="1639935105">
+    <SourceWindow Type="LAUNCHER_NODE" Name="" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_launch_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.ChooseFileActivity]829" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1542726275">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$7: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="1363497260">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$5: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="577239715">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$10: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="942035210">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$4: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="1111264439">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="long_click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$11: boolean onLongClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="965437933">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="long_click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$9: boolean onLongClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="614739613">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="touch" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.lib.pagesview.PagesView: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="771785986">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="long_click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$6: boolean onLongClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="142601537">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="press_key" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.lib.pagesview.PagesView: boolean onKey(android.view.View,int,android.view.KeyEvent)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="1784228258">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$3: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="1871454898">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$8: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="1166967508">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.Dialog" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onContextItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3467]4117" />
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3372, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showFindDialog()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="845966017">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.Options" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.Options" >
+    </TargetWindow>
+    <Event Type="implicit_rotate_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.Options: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.Options: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.Options]810" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.Options]810" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="291193111">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3864" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_home_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="525101116">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.ChooseFileActivity]829" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="778420515">
+    <SourceWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.AlertDialog]4075, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void errorMessage(java.lang.String)&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="2131663948">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_rotate_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onDestroy()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3467]4117" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.OpenFileActivity]793" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.OpenFileActivity]793" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="882260291">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.Dialog" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3254, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showGotoPageDialog()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1214753381">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$12: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3254, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showGotoPageDialog()&gt;" />
+      <EventCallbacks handler="DIALOG[android.app.AlertDialog]4075, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void errorMessage(java.lang.String)&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1208686227">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ContextMenu" Name="VAR[r1]3864" >
+    </TargetWindow>
+    <Event Type="long_click" idName="files">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3864]4115" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1139543842">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_home_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.ChooseFileActivity]818" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1186298429">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.Options" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.Options" >
+    </TargetWindow>
+    <Event Type="implicit_home_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.Options: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="871678988">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.Dialog" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onContextItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3467]4117" />
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3254, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showGotoPageDialog()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="593228655">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.Dialog" >
+    </TargetWindow>
+    <Event Type="implicit_home_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="15564089">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.AboutPDFViewActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.AboutPDFViewActivity: void onCreate(android.os.Bundle)&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.ChooseFileActivity]818" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.AboutPDFViewActivity]815" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1835305867">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onContextItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3467]4117" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.ChooseFileActivity]829" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="2015749775">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="68788847">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.AboutPDFViewActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.AboutPDFViewActivity" >
+    </TargetWindow>
+    <Event Type="implicit_rotate_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.AboutPDFViewActivity: void onCreate(android.os.Bundle)&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.AboutPDFViewActivity]815" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.AboutPDFViewActivity]815" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1870005088">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_home_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="646444502">
+    <SourceWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </TargetWindow>
+    <Event Type="implicit_power_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="1908506135">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.Options" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.Options]810" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="948084890">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3864" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_rotate_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3864]4115" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.ChooseFileActivity]829" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.ChooseFileActivity]829" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1739639273">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_power_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.ChooseFileActivity]818" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="2122361228">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3864" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: boolean onContextItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3864]4115" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="80433549">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3864" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: boolean onContextItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3864]4115" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="694200318">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3864" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: boolean onContextItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3864]4115" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1216273594">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.Dialog" >
+    </TargetWindow>
+    <Event Type="implicit_rotate_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onDestroy()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3372, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showFindDialog()&gt;" />
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3372, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showFindDialog()&gt;" />
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3372, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showFindDialog()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="868860144">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$12: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3254, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showGotoPageDialog()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1842391101">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$14: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3254, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showGotoPageDialog()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1101249838">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$13: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3254, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showGotoPageDialog()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="2131112620">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_rotate_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: boolean onCreateOptionsMenu(android.view.Menu)&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.ChooseFileActivity]818" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.ChooseFileActivity]829" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.ChooseFileActivity]829" />
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.ChooseFileActivity]818" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="37069820">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="item_click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onDestroy()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.OpenFileActivity]793" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.OpenFileActivity]793" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1791783623">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.Options" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onContextItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.Options: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.Options: void onResume()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3467]4117" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.Options]810" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="911931517">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_home_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="2013736776">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="item_click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.OpenFileActivity]793" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1468156407">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.ChooseFileActivity]818" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1590772618">
+    <SourceWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </TargetWindow>
+    <Event Type="implicit_home_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="1059705149">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.Dialog" >
+    </TargetWindow>
+    <Event Type="press_key" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.lib.pagesview.PagesView: boolean onKey(android.view.View,int,android.view.KeyEvent)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3372, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showFindDialog()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="2115359999">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.AboutPDFViewActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.AboutPDFViewActivity]815" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="991819579">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$15: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3372, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showFindDialog()&gt;" />
+      <EventCallbacks handler="DIALOG[android.app.AlertDialog]4074, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity$Finder$1: void run()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1870933697">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.Dialog" >
+    </TargetWindow>
+    <Event Type="implicit_home_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="517323317">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.AboutPDFViewActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onContextItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.AboutPDFViewActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3467]4117" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.AboutPDFViewActivity]815" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1312241468">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$15: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3372, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showFindDialog()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="440903150">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3372, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showFindDialog()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1425764929">
+    <SourceWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </TargetWindow>
+    <Event Type="implicit_rotate_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onDestroy()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.AlertDialog]4074, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity$Finder$1: void run()&gt;" />
+      <EventCallbacks handler="DIALOG[android.app.AlertDialog]4074, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity$Finder$1: void run()&gt;" />
+      <EventCallbacks handler="DIALOG[android.app.AlertDialog]4074, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity$Finder$1: void run()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1741451001">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </TargetWindow>
+    <Event Type="long_click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3467]4117" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="271924203">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$16: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3467]4117" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="930776278">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.AboutPDFViewActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.AboutPDFViewActivity" >
+    </TargetWindow>
+    <Event Type="implicit_home_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="949784834">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.AboutPDFViewActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.AboutPDFViewActivity]815" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1008966478">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.ChooseFileActivity]818" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="91227458">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.Options" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.Options: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.Options: void onResume()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.Options]810" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1724869902">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$3: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.AlertDialog]4074, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity$Finder$1: void run()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="981984340">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity$4: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.AlertDialog]4074, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity$Finder$1: void run()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="450814369">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_rotate_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onDestroy()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.OpenFileActivity]793" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.OpenFileActivity]793" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="520203693">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.Dialog" >
+    </TargetWindow>
+    <Event Type="implicit_power_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="37422174">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_home_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="119268617">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.Options" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.Options: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.Options: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.ChooseFileActivity]818" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.Options]810" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1780862882">
+    <SourceWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;FakeName_17: void onClick(android.view.View)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.AlertDialog]4074, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity$Finder$1: void run()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="2027645838">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onCreateOptionsMenu(android.view.Menu)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onCreateOptionsMenu(android.view.Menu)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onPrepareOptionsMenu(android.view.Menu)&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="572037439">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_power_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="2054357976">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.Dialog" >
+    </TargetWindow>
+    <Event Type="implicit_rotate_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onDestroy()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3254, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showGotoPageDialog()&gt;" />
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3254, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showGotoPageDialog()&gt;" />
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3254, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showGotoPageDialog()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1047497707">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_power_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="499847347">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.Dialog" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3372, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showFindDialog()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="2080154452">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="item_click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="426971696">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="long_click" idName="files">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="1526854182">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_rotate_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.ChooseFileActivity]829" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.ChooseFileActivity]829" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="503988093">
+    <SourceWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </TargetWindow>
+    <Event Type="implicit_power_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="15915499">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.Options" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.Options" >
+    </TargetWindow>
+    <Event Type="implicit_power_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.Options: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="26323287">
+    <SourceWindow Type="DIALOG" Name="android.app.Dialog" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.Dialog]3254, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void showGotoPageDialog()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1431694209">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: boolean onCreateOptionsMenu(android.view.Menu)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: boolean onCreateOptionsMenu(android.view.Menu)&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.ChooseFileActivity]818" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="451663745">
+    <SourceWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </TargetWindow>
+    <Event Type="implicit_home_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="205551798">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.AboutPDFViewActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.AboutPDFViewActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.AboutPDFViewActivity]815" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="9941880">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3864" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3864]4115" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="2061785352">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.Options" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.Options]810" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1048043018">
+    <SourceWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.AlertDialog]4074, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity$Finder$1: void run()&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="838698170">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </TargetWindow>
+    <Event Type="implicit_home_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.ChooseFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="206368142">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.AboutPDFViewActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.AboutPDFViewActivity" >
+    </TargetWindow>
+    <Event Type="implicit_power_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+    </StackOperations>
+  </Edge>
+  <Edge ID="1413011734">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1421859349">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="154819692">
+    <SourceWindow Type="OptionsMenu" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="OptionsMenu[cx.hell.android.pdfview.OpenFileActivity]777" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1651630168">
+    <SourceWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </SourceWindow>
+    <TargetWindow Type="DIALOG" Name="android.app.AlertDialog" >
+    </TargetWindow>
+    <Event Type="implicit_rotate_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onPause()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onStop()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onDestroy()&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onCreate(android.os.Bundle)&gt;" />
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: void onResume()&gt;" />
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="DIALOG[android.app.AlertDialog]4075, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void errorMessage(java.lang.String)&gt;" />
+      <EventCallbacks handler="DIALOG[android.app.AlertDialog]4075, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void errorMessage(java.lang.String)&gt;" />
+      <EventCallbacks handler="DIALOG[android.app.AlertDialog]4075, alloc: &lt;cx.hell.android.pdfview.OpenFileActivity: void errorMessage(java.lang.String)&gt;" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1880323433">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onContextItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3467]4117" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1524004364">
+    <SourceWindow Type="ACT" Name="cx.hell.android.pdfview.ChooseFileActivity" >
+    </SourceWindow>
+    <TargetWindow Type="LAUNCHER_NODE" Name="" >
+    </TargetWindow>
+    <Event Type="implicit_back_event" idName="">
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ACT[cx.hell.android.pdfview.ChooseFileActivity]829" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="30709766">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onContextItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3467]4117" />
+    </StackOperations>
+  </Edge>
+  <Edge ID="1816845124">
+    <SourceWindow Type="ContextMenu" Name="VAR[r1]3467" >
+    </SourceWindow>
+    <TargetWindow Type="ACT" Name="cx.hell.android.pdfview.OpenFileActivity" >
+    </TargetWindow>
+    <Event Type="click" idName="">
+      <EventCallbacks handler="&lt;cx.hell.android.pdfview.OpenFileActivity: boolean onContextItemSelected(android.view.MenuItem)&gt;" />
+    </Event>
+    <LifecycleCallbacks>
+    </LifecycleCallbacks>
+    <StackOperations>
+      <EventCallbacks handler="ContextMenu[VAR[r1]3467]4117" />
+    </StackOperations>
+  </Edge>
+</WTGGHPrinterClient>

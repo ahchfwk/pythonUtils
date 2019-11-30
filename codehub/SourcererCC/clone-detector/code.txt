@@ -1,0 +1,19 @@
+	public void testUseWithCleanup() {
+		final Inventory inventory = mock(Inventory.class);
+		final Character character = mock(Character.class);
+		when(character.getInventory()).thenReturn(inventory);
+
+		final ArgumentCaptor<Item> addedItem = ArgumentCaptor.forClass(Item.class);
+		when(inventory.addItem(addedItem.capture())).thenReturn(1);
+
+		bottle2.use(character);
+
+		// Consumption of bottle2 requires these 2 calls.
+		verify(inventory).cleanup();
+		verify(character).addToThirstiness(THIRST);
+
+		assertThat(addedItem.getValue(), instanceOf(EmptyBottle.class));
+		final EmptyBottle emptyBottle = (EmptyBottle) addedItem.getValue();
+		assertEquals(((RefillableStatModifyingItemProperties) bottle2.properties).getOtherStateProperties(), emptyBottle.properties);
+		assertEquals(1, emptyBottle.amount);
+	}

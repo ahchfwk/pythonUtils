@@ -1,0 +1,25 @@
+{
+                storiesArrayAdapter.clear();
+                stories = new Story[response.stories.length];
+                for (int i = 0; i < response.stories.length; i++) {
+                    Story story = response.stories[i];
+                    storiesArrayAdapter.add(story);
+                    stories[i] = story;
+                }
+            }
+
+            swipeRefreshLayout.setRefreshing(false);
+        }
+    }
+
+    class StoryListOnClickListener implements AdapterView.OnItemClickListener {
+
+        @Override
+        public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+
+            Intent intent;
+            intent = new Intent(getActivity().getApplicationContext(), ViewStoryActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
+            intent.putExtra(ViewStoryFragment.ARG_STORY_TITLE,stories[position].title);
+            intent.putExtra(V
